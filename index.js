@@ -18,7 +18,8 @@ function destructivelyRemoveFirstKitten(name) {
 }
   
 function appendKitten(name) {
-  return appendKitten(name);
+  return kittens = [...kittens, ''];
+  return kittens;
 }
 
 function prependKitten(name) {
@@ -33,4 +34,7 @@ function removeFirstKitten() {
   return kittens.slice(1);
 }
 
-
+function addElementToEndOfArray(array, element) {
+  array = [...array, 'foo']
+  return array;
+}
